@@ -1,0 +1,132 @@
+html,
+body,
+header,
+#intro {
+    height: 95%;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+}
+
+#intro {
+    background: url("../images/bannerimg.png")no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #2c2e31;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #2c2e31;
+    }
+  }
+.navbar {
+  position: absolute;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+  padding-top: 1em;
+}
+  .h1-responsive {
+    font-weight: 600;
+  }
+  .navbar-brand {
+    font-weight: 400;
+  }
+  .btn-light, .btn-lg {
+    border-radius: 25px;
+  }
+  .bannercontent .text-center {
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .h1-responsive, .bannercontent p {
+    color: white;
+  }
+
+  ul {
+    right: 10%;
+  }
+
+  .lead, body {
+    font-size: 1.04em;
+  }
+
+  .btn {
+    font-size: .9em;
+  }
+
+  .btn-lg {
+    background-color: #00add9;
+    border: #00add9;
+  }
+
+  .lead {
+    line-height: 3em;
+  }
+
+  main {
+    padding: 4em 0 2em 0;
+  }
+  .mask {
+    position: relative;
+    top: 35%
+  }
+
+  .bannercontent {
+    margin: auto auto;
+  }
+
+  .card {
+    text-align: center;
+    padding: 2em 0;
+  }
+
+  .card-deck {
+    margin: 4em 4em;
+  }
+
+  .rounded-circle {
+    width: 10em;
+    height: 10em;
+    margin: 1em auto;
+  }
+
+  .blue-circle {
+    background-color: #00add9;
+  }
+
+  .bi {
+    color: white;
+    position: relative;
+    top: 35%;
+  }
+
+  .green-circle {
+    background-color: #a0dc00;
+  }
+
+  .pink-circle {
+    background-color: #e5185a;
+  }
+
+  @media (max-width: 800px) {
+    .card-deck {
+      display: block;
+    }
+
+    .navbar {
+      padding-top: .5em;
+      position: fixed;
+    }
+
+    .card {
+      margin: 1em;
+    }
+  }
